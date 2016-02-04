@@ -26,5 +26,5 @@ public class Tva {
         Calcul t = new Calcul(price, vat);
         System.out.println("Pretul produsului este " + t.getPret() + " lei, din care tva "
                 + t.calculezTva() + " lei");
-    }
-}
+    };
+};
